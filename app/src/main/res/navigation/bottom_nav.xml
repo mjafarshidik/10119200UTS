@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.penatabahasa.myselfapps.ui.main.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/dailyFragment"
+        android:name="com.penatabahasa.myselfapps.ui.main.fragments.DailyFragment"
+        android:label="fragment_daily"
+        tools:layout="@layout/fragment_daily" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.penatabahasa.myselfapps.ui.main.fragments.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/mediaFragment"
+        android:name="com.penatabahasa.myselfapps.ui.main.fragments.MediaFragment"
+        android:label="fragment_media"
+        tools:layout="@layout/fragment_media" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.penatabahasa.myselfapps.ui.main.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvFavoriteMusic"
+        style="@style/backgroundAliceBlue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/ivMusic"
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:contentDescription="@string/image_daily_activity"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@drawable/ic_music_blue" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/ivMusic"
+                app:layout_constraintStart_toEndOf="@+id/ivMusic"
+                app:layout_constraintTop_toTopOf="@+id/ivMusic">
+
+                <TextView
+                    android:id="@+id/tvTitleMusic"
+                    style="@style/TextFreeSpeechBlueMedium16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/title_music"
+                    tools:layout_editor_absoluteX="111dp"
+                    tools:layout_editor_absoluteY="27dp" />
+
+                <TextView
+                    android:id="@+id/tvDescMusic"
+                    style="@style/TextFreeSpeechBlueRegular12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/music_singer"
+                    tools:layout_editor_absoluteX="111dp"
+                    tools:layout_editor_absoluteY="27dp" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

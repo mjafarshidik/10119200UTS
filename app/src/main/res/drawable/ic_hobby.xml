@@ -1,0 +1,13 @@
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+  <path
+      android:pathData="M19,1.7C11.0333,2.2167 5,9.2 5,17.1833V28.3333C5,31.1 7.2333,33.3333 10,33.3333H11.6667C13.5,33.3333 15,31.8333 15,30V23.3333C15,21.5 13.5,20 11.6667,20H8.3333V17.15C8.3333,10.75 13.2667,5.1833 19.65,5C26.2667,4.8167 31.6667,10.1 31.6667,16.6667V20H28.3333C26.5,20 25,21.5 25,23.3333V30C25,31.8333 26.5,33.3333 28.3333,33.3333H30C32.7667,33.3333 35,31.1 35,28.3333V16.6667C35,8.05 27.7333,1.1333 19,1.7V1.7Z"
+      android:fillColor="#415EB6"/>
+</vector>

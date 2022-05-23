@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/_4sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <ImageView
+            android:id="@+id/ivItemGallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/gallery_item"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/photo1" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

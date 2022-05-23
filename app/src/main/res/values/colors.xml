@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorPaua">#22215B</color>
+    <color name="colorFreeSpeechBlue">#415EB6</color>
+    <color name="colorDarkTangerine">#FFB110</color>
+    <color name="colorMediumCarmine">#AC4040</color>
+    <color name="colorLightSeaGreen">#23B0B0</color>
+    <color name="colorEmerald">#4CE364</color>
+    <color name="colorTangerineYellow">#FFC700</color>
+    <color name="colorPumpkin">#FF842A</color>
+    <color name="colorVioletRed">#FF317B</color>
+    <color name="colorIrisBlue">#00BCD4</color>
+    <color name="colorSweetCorn">#FFDE6C</color>
+    <color name="colorTomato">#F45656</color>
+    <color name="colorTurquoise">#34DEDE</color>
+    <color name="colorCornflowerBlue">#567DF4</color>
+    <color name="colorFloralWhite">#FFFBEC</color>
+    <color name="colorWhiteSmoke">#FEEEEE</color>
+    <color name="colorAzure">#F0FFFF</color>
+    <color name="colorAliceBlue">#EEF7FE</color>
+    <color name="colorLinkWater">#D3D7DD</color>
+    <color name="colorTextShipCove">#7B7F9E</color>
+    <color name="colorBackgroundSolitude">#F1F3F6</color>
+    <color name="colorBackground">#F6F9FF</color>
+</resources>

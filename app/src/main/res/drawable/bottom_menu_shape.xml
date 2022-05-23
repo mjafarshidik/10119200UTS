@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/colorWhite"/>
+    <corners android:topRightRadius="@dimen/_24sdp" android:topLeftRadius="@dimen/_24sdp"/>
+    <stroke android:color="@color/colorLinkWater" android:width="@dimen/_1sdp"/>
+</shape>

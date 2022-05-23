@@ -1,0 +1,240 @@
+<!--22 Mei 2022-->
+<!--10119200-->
+<!--Muhammad Jafar Shidik-->
+<!--IF-5-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.10119200UTS" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPaua</item>
+        <item name="colorPrimaryVariant">@color/colorFreeSpeechBlue</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorMediumCarmine</item>
+        <item name="colorSecondaryVariant">@color/colorPumpkin</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonPrimaryLarge" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:background">@drawable/button_shape_paua</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">@dimen/_40sdp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ButtonSecondaryLarge" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+        <item name="android:background">@drawable/button_shape_secondary</item>
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">@dimen/_40sdp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="backgroundPaua">
+        <item name="android:background">@color/colorPaua</item>
+        <item name="android:backgroundTint">@color/colorPaua</item>
+
+    </style>
+
+    <style name="background">
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:backgroundTint">@color/colorBackground</item>
+    </style>
+
+    <style name="backgroundAliceBlue">
+        <item name="android:background">@color/colorAliceBlue</item>
+        <item name="android:backgroundTint">@color/colorAliceBlue</item>
+    </style>
+
+    <style name="backgroundFloralWhite">
+        <item name="android:background">@color/colorFloralWhite</item>
+        <item name="android:backgroundTint">@color/colorFloralWhite</item>
+    </style>
+
+    <style name="backgroundWhiteSmoke">
+        <item name="android:background">@color/colorWhiteSmoke</item>
+        <item name="android:backgroundTint">@color/colorWhiteSmoke</item>
+    </style>
+
+    <style name="backgroundAzure">
+        <item name="android:background">@color/colorAzure</item>
+        <item name="android:backgroundTint">@color/colorAzure</item>
+    </style>
+
+    <style name="PoppinsRegular" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+    <style name="PoppinsMedium" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="PoppinsSemiBold" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+
+    <style name="TextPauaSemiBold30" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="TextPauaSemiBold24" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextPauaSemiBold18" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextPauaSemiBold16" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextPauaSemiBold14" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextPauaSemiBold12" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextPauaRegular16" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextPauaRegular14" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextPauaRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextPauaMedium14" parent="PoppinsMedium">
+        <item name="android:textColor">@color/colorPaua</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextShipCoveRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorTextShipCove</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextFreeSpeechBlueMedium16" parent="PoppinsMedium">
+        <item name="android:textColor">@color/colorFreeSpeechBlue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextFreeSpeechBlueRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorFreeSpeechBlue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextFreeSpeechBlueRegular14" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorFreeSpeechBlue</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextDarkTangerineMedium16" parent="PoppinsMedium">
+        <item name="android:textColor">@color/colorDarkTangerine</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextDarkTangerineRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorDarkTangerine</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextDarkTangerineRegular14" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorDarkTangerine</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextMediumCarmineMedium16" parent="PoppinsMedium">
+        <item name="android:textColor">@color/colorMediumCarmine</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextMediumCarmineRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorMediumCarmine</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextMediumCarmineRegular14" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorMediumCarmine</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextLightSeaGreenMedium16" parent="PoppinsMedium">
+        <item name="android:textColor">@color/colorLightSeaGreen</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextLightSeaGreenRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorLightSeaGreen</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextLightSeaGreenRegular14" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorLightSeaGreen</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextWhiteMedium16" parent="PoppinsMedium">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextWhiteRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextFreeSpeechBlueRegular10" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorFreeSpeechBlue</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextDarkTangerineRegular10" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorDarkTangerine</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextMediumCarmineRegular10" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorMediumCarmine</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextLightSeaGreenRegular10" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorLightSeaGreen</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextWhiteSemiBold18" parent="PoppinsSemiBold">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextLinkWaterRegular12" parent="PoppinsRegular">
+        <item name="android:textColor">@color/colorLinkWater</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/card_rounded</item>
+    </style>
+</resources>
